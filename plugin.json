@@ -1,0 +1,25 @@
+{
+  "name": "claudedaniel",
+  "description": "Daniel's Claude Code skills — Mittwald mStudio, and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Scherber",
+    "github": "danielscherber"
+  },
+  "skills": [
+    {
+      "id": "mittwald-mstudio",
+      "name": "Mittwald mStudio",
+      "description": "Deep knowledge of Mittwald mStudio v2 — CLI (mw), REST API, Docker container deployments, and App Marketplace setups (n8n, WordPress, etc.). Use this skill whenever the user asks about anything on Mittwald / mStudio: setting up apps, deploying containers, automating via the API or CLI, configuring projects/spaces/organizations, debugging deployments, or writing shell/automation scripts that interact with mStudio. Also trigger for questions about mw CLI commands, API tokens, container stacks, ingress/domain routing, database provisioning, or environment variables on Mittwald. If the user mentions \"Mittwald\", \"mStudio\", \"mw CLI\", \"Space-Server\", or \"Mittwald project\", always consult this skill. This skill instructs Claude to always search developer.mittwald.de and github.com/mittwald for current solutions before answering — use it any time a Mittwald problem or setup task needs a definitive, up-to-date answer.",
+      "path": "skills/mittwald-mstudio",
+      "tags": ["mittwald", "mstudio", "hosting", "docker", "cli", "api"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "hosting",
+      "name": "Hosting & Infrastructure",
+      "description": "Skills for managed hosting platforms and deployments"
+    }
+  ]
+}
