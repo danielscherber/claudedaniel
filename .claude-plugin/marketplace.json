@@ -5,24 +5,17 @@
   },
   "metadata": {
     "description": "Daniel's Claude Code skills — Mittwald mStudio, MOCO, and more.",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
-      "name": "mittwald-mstudio",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/danielscherber/claudedaniel.git"
-      },
-      "description": "Deep knowledge of Mittwald mStudio v2 — CLI (mw), REST API, Docker container deployments, and App Marketplace setups (n8n, WordPress, etc.)."
-    },
-    {
-      "name": "moco",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/danielscherber/claudedaniel.git"
-      },
-      "description": "MOCO Agentursoftware — API v1, Webhooks, n8n-Integration und MCP Server. Zeiterfassung, Projekte, Rechnungen, Leads, Planung und mehr."
+      "name": "claudedaniel",
+      "description": "Daniel's Claude Code skills — Mittwald mStudio, MOCO, and more.",
+      "source": "./",
+      "skills": [
+        "./skills/mittwald-mstudio",
+        "./skills/moco"
+      ]
     }
   ]
 }
